@@ -6,6 +6,7 @@
       font-family: 'Space Mono', monospace;
       background-image: url("../images/spaceBack.jpg");
       background-repeat: no-repeat;
+      background-color: black;
   }
   
   p {
@@ -62,7 +63,7 @@
       font-size: 150%;
       font-weight: bold;
       color: #D42754;
-      padding-top: 2vh;
+      padding-top: 1vh;
   }
   
   #room {
@@ -103,10 +104,9 @@
       display: flex;
       justify-content: center;
   }
-  
-  #rocket {
-      /* width: 1rem; */
-  }
+  /* #rocket {
+      width: 20rem;
+  } */
   
   #result {
       width: 100%;
@@ -127,7 +127,4 @@
       #ufo {
           width: 4rem;
       }
-      /* #rocket {
-          width: 8rem;
-      } */
   }
