@@ -58,14 +58,14 @@ function myFunction(item) { //calculates sum and prints result
 
             var a = x.reduce(getSum, 0)
 
-            document.getElementById("timeTaken").innerHTML = "YOU SAVE THE WORLD IN " + a.toFixed(2) + " SEC!"
+            document.getElementById("timeTaken").innerHTML = "YOU SAVED THE WORLD IN " + a.toFixed(2) + " SEC!"
             document.getElementById("gameFin").innerHTML = "YOU WON!!!";
 
         } else {
 
             var b = x.reduce(getSum, 0)
 
-            document.getElementById("timeTaken").innerHTML = "YOU TOOK TO LONG! " + b.toFixed(2) + " SEC!"
+            document.getElementById("timeTaken").innerHTML = "YOU TOOK TOO LONG! " + b.toFixed(2) + " SEC!"
             document.getElementById("gameFin").innerHTML = "YOU FAILED!!! THE WORLD HAS ENDED!";
             document.getElementById("gameFin").style.color = "red";
         }
