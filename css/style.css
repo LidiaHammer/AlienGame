@@ -5,7 +5,7 @@
       color: #6CC9EA;
       font-family: 'Space Mono', monospace;
       background-image: url("../images/spaceBack.jpg");
-      background-repeat: no-repeat;
+      background-repeat: repeat;
       background-color: black;
   }
   
